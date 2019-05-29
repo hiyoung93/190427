@@ -1,0 +1,9 @@
+getwd()
+
+setwd("D:/남궁하영 19.04.27~07.01")
+
+
+install.packages("jpeg")
+
+#오른쪽 빗금처리
+roadpot <- readJPEG("./image/roadpot.jpg")
